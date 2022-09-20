@@ -1,9 +1,10 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Navbar from '../components/Navbar.jsx';
-import Contact from '../components/Contact.jsx';
+import Layout from '../layouts/Layout.astro'
+import Navbar from '../components/Navbar.jsx'
+import Contact from '../components/Contact.jsx'
 import CardContainer from '../components/CardContainer.jsx'
-import Card from '../components/Card.jsx';
+import Card from '../components/Card.jsx'
+import Techs from '../components/Techs.jsx'
 ---
 
 <Layout title="Mi portfolio">
@@ -36,11 +37,11 @@ import Card from '../components/Card.jsx';
 				<Card 
 					title="Shiba Cards" 
 					github='https://github.com/mperezpizarro/shibaCard'
-					web='shiba-cards.netlify.app'
+					web='https://shiba-cards.netlify.app'
 					techs='Vite, React'
 				>
 					<p>
-						Apliacación que muestra una foto al azar de un Shiba Inu gracias a la API de shibe.online
+						Aplicación que muestra una foto al azar de un Shiba Inu gracias a la API de shibe.online
 						y la librería de React Flippy
 					</p>
 				</Card>
@@ -49,11 +50,15 @@ import Card from '../components/Card.jsx';
 					techs='SvelteKit'
 				>
 					<p>
-						Apliacación que permite buscar tus series y películas favoritas y ver 
+						Aplicación que permite buscar tus series y películas favoritas y ver 
 						información detallada de las mismas gracias a la API de OMDB
 					</p>
 				</Card>
 			</CardContainer>
+		</section>
+		<section id='tecnologías'>
+			<h3>TECNOLOGÍAS</h3>
+			<Techs />
 		</section>
 	</main>
 </Layout>
