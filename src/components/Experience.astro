@@ -1,0 +1,39 @@
+---
+import CardContainer from '../components/CardContainer.jsx'
+import Card from '../components/Card.jsx'
+---
+
+<section id="experiencia">
+    <h3>MI EXPERIENCIA</h3>
+    <CardContainer>
+        <Card title="2022" place='Canal Cúbico'>
+            <p>Formación en centro de trabajo. - Desarrollo de Aplicaciones Web</p>
+            <p>Prácticas de React, Docker e Ionic</p>
+        </Card>
+        <Card title="2020 - 2022" place='Escuela Virgen de Guadalupe'>
+            <p>Formación Profesional de Grado Superior. - Desarrollo de Aplicaciones Web</p>
+            <p>Frontend, backend, diseño y despliegue</p>
+        </Card>
+        <Card title="2018 - 2020" place='IES Rodríguez Moñino'>
+            <p>Bachillerato de ciencias - Rama tecnológica</p>
+        </Card>
+    </CardContainer>
+</section>
+
+<style>
+    section{
+		margin: 2rem 0;
+		padding: .2rem;
+	}
+
+	h3{
+		font-size: 1.5rem;
+		color: #306EFF;
+	}
+
+	@media screen and (max-width: 650px){
+		h3{
+			font-size: 1.1rem;
+		}
+	}
+</style>

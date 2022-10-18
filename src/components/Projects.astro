@@ -1,0 +1,71 @@
+---
+import CardContainer from '../components/CardContainer.jsx'
+import Card from '../components/Card.jsx'
+---
+
+<section id="proyectos">
+    <h3>MIS PROYECTOS</h3>
+    <CardContainer>
+        <Card 
+            title="Shiba Cards" 
+            github='https://github.com/mperezpizarro/shibaCard'
+            web='https://shiba-cards.netlify.app'
+            techs='Vite, React'
+        >
+            <p>
+                Aplicación que muestra una foto al azar de un Shiba Inu gracias a la API de shibe.online
+                y la librería de React Flippy
+            </p>
+        </Card>
+        <Card 
+            title="Password generator"
+            techs='Vite, React, Tailwind CSS'
+            github='https://github.com/mperezpizarro/password-generator'
+            web='https://dr4fty-password-generator.vercel.app'
+        >
+            <p>
+                Aplicación sencilla para generar una contraseña aleatoria. Permite ajustar la
+                longitud de la misma de 8 a 24 caracteres
+            </p>
+        </Card>
+        <Card 
+            title="mQuery"
+            techs='SvelteKit'
+            github='https://github.com/mperezpizarro/mQuery'
+            web='https://dr4fty-mquery.netlify.app'
+        >
+            <p>
+                Aplicación que permite buscar tus series y películas favoritas y ver 
+                información detallada de las mismas gracias a la API de OMDB
+            </p>
+        </Card>
+        <Card 
+            title="Badajoz Unida"
+            techs='Angular, PHP'
+            github='https://github.com/genarosalas10/badajozUnida'
+        >
+            <p>
+                Proyecto en grupo de fin de curso que consistía en el prototipo de una plataforma para organizar y unirse
+                a diferentes eventos multiculturales en la ciudad de Badajoz
+            </p>
+        </Card>
+    </CardContainer>
+</section>
+
+<style>
+    section{
+		margin: 2rem 0;
+		padding: .2rem;
+	}
+
+	h3{
+		font-size: 1.5rem;
+		color: #306EFF;
+	}
+
+	@media screen and (max-width: 650px){
+		h3{
+			font-size: 1.1rem;
+		}
+	}
+</style>

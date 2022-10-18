@@ -1,0 +1,46 @@
+---
+import Contact from '../components/Contact.jsx'
+---
+
+<header>
+    <h1>¡Hola, soy <span>Mario</span>!</h1>
+    <h2>Soy un <span>desarrollador frontend.</span></h2>
+    <Contact />
+</header>
+
+<style>
+    h1{
+		color: #fff;
+		font-size: 3rem;
+		text-align: center;
+		line-height: 1.8rem;
+	}
+
+	h2{
+		color: #fff;
+		font-size: 2.5rem;
+		line-height: 1.8rem;
+		text-align: center;
+	}
+
+	h1 span, h2 span{
+		background: -webkit-linear-gradient(180deg, #306EFF, #3565D6);
+  		-webkit-background-clip: text;
+  		-webkit-text-fill-color: transparent;
+	}
+
+    header{
+		margin: 2rem 0;
+		padding: .2rem;
+	}
+
+	@media screen and (max-width: 650px){
+		h1{
+			font-size: 2rem;
+		}
+
+		h2{
+			font-size: 1.3rem;
+		}
+	}
+</style>
