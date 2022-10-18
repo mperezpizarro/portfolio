@@ -8,10 +8,10 @@ const Card = ({title, children, github='', web='', place='', techs=''}) => {
       <strong>{title}</strong>
       {children}
       <div className="links">
+        {place != '' && <strong>{place}</strong>}
         {techs != '' && <strong>[{techs}]</strong>}
         {github != '' && <a href={github} target='_blank'><GitHub /></a>}
         {web != '' && <a href={web} target='_blank'><ExternalLink /></a>}
-        {place != '' && <strong>{place}</strong>}
       </div>
     </div>
   )
