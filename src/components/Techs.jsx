@@ -13,7 +13,6 @@ const Techs = () => {
         <SiTypescript />
         <DiLinux />
         <DiReact />
-        <SiSvelte />
         <AstroIcon />
         <DiSass />
         <SiTailwindcss />
