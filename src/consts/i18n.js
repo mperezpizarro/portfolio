@@ -27,10 +27,36 @@ export const i18nHeader = {
 
 export const i18nExperience = {
     es: {
-        title: "MI EXPERIENCIA"
+        title: "MI EXPERIENCIA",
+        bachiller: "Bachillerato de ciencias - Rama tecnológica",
+        evg: [
+            "Formación Profesional de Grado Superior. - Desarrollo de Aplicaciones Web",
+            "Frontend, backend, diseño y despliegue"
+        ],
+        canal_cubico: [
+            "Formación en centro de trabajo - Desarrollo de Aplicaciones Web",
+            "Prácticas de React, Docker e Ionic"
+        ],
+        ms_learn_ts: [
+            "Curso gratuito de Microsoft para aprender a utilizar Typescript",
+            "Comprende desde los básicos del lenguaje hasta el uso de Interfaces, Clases, Namespaces..."
+        ]
     },
     en: {
-        title: "MY EXPERIENCE"
+        title: "MY EXPERIENCE",
+        bachiller: "High School Science Degree - Tech branch",
+        evg: [
+            "Professional Education Higher Grade - Web app development",
+            "Frontend, backend, design and deployment"
+        ],
+        canal_cubico: [
+            "On-the-job training - Web app development",
+            "React, Docker and Ionic practices"
+        ],
+        ms_learn_ts: [
+            "Microsoft course to learn Typescript",
+            "From the language basics to Interfaces, Classes, Namespaces..."
+        ]
     }
 }
 
