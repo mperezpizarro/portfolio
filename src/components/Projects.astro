@@ -16,7 +16,7 @@ const { lang = "es" } = Astro.props
             techs="Nuxt, Vue, Tailwind"
         >
             <p>
-                Proyecto para aprender Nuxt que busca y muestra datos a través de una API creada en el mismo framework.
+                { i18nProjects[lang].fichas_doblaje }
             </p>
         </Card>
         <Card
@@ -25,7 +25,7 @@ const { lang = "es" } = Astro.props
             techs="Astro, React, Tailwind, Markdown"
         >
             <p>
-                Blog personal donde subo artículos relacionados con el diseño y desarrollo frontend.
+                { i18nProjects[lang].blog }
             </p>
         </Card>
         <Card 
@@ -35,8 +35,7 @@ const { lang = "es" } = Astro.props
             techs='Next, React, Tailwind'
         >
             <p>
-                Aplicación que muestra una foto al azar de un Shiba, pato o zorro gracias a la ayuda
-                de distintas APIs.
+                { i18nProjects[lang].animal_pics }
             </p>
         </Card>
         <Card 
@@ -46,8 +45,7 @@ const { lang = "es" } = Astro.props
             web='https://dr4fty-password-generator.vercel.app'
         >
             <p>
-                Aplicación sencilla para generar una contraseña aleatoria. Permite ajustar la
-                longitud de la misma de 8 a 24 caracteres
+                { i18nProjects[lang].password_generator }
             </p>
         </Card>
         <Card 
@@ -56,8 +54,7 @@ const { lang = "es" } = Astro.props
             github='https://github.com/genarosalas10/badajozUnida'
         >
             <p>
-                Proyecto en grupo de fin de curso que consistía en el prototipo de una plataforma para organizar y unirse
-                a diferentes eventos multiculturales en la ciudad de Badajoz
+                { i18nProjects[lang].badajoz_unida }
             </p>
         </Card>
     </CardContainer>
