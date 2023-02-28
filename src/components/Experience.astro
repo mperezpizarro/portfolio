@@ -1,10 +1,13 @@
 ---
 import CardContainer from '../components/CardContainer.jsx'
 import Card from '../components/Card.jsx'
+import { i18nExperience } from '@i18n'
+
+const { lang = "es" } = Astro.props
 ---
 
 <section id="experiencia">
-    <h3>MI EXPERIENCIA</h3>
+    <h3>{ i18nExperience[lang].title }</h3>
     <CardContainer>
         <Card 
             title="2022" 

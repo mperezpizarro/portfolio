@@ -1,10 +1,13 @@
 ---
 import Contact from '../components/Contact.jsx'
+import { i18nHeader } from '@i18n';
+
+const { lang="es" } = Astro.props 
 ---
 
 <header>
-    <h1>¡Hola, soy <span>Mario</span>!</h1>
-    <h2>Soy un <span>desarrollador frontend.</span></h2>
+    <h1>{ i18nHeader[lang].h1 }<span>Mario</span></h1>
+    <h2>{ i18nHeader[lang].h2 }<span>{ i18nHeader[lang].h2_title }</span></h2>
     <Contact />
 </header>
 

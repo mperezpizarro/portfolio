@@ -1,10 +1,13 @@
 ---
 import CardContainer from '../components/CardContainer.jsx'
 import Card from '../components/Card.jsx'
+import { i18nProjects } from '@i18n'
+
+const { lang = "es" } = Astro.props
 ---
 
 <section id="proyectos">
-    <h3>MIS PROYECTOS</h3>
+    <h3>{ i18nProjects[lang].title }</h3>
     <CardContainer>
         <Card
             title="Fichas de doblaje"

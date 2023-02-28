@@ -8,13 +8,13 @@ import MyTechs from '@components/MyTechs.astro'
 import { i18nLayout } from '@i18n'
 ---
 
-<Layout title={i18nLayout["es"].title}>
-	<Navbar client:load />
+<Layout title={i18nLayout["en"].title}>
+	<Navbar client:load lang="en" />
 	<main>
-		<Header />
-		<Experience />
-		<Projects />
-		<MyTechs />
+		<Header lang="en" />
+		<Experience lang="en" />
+		<Projects lang="en" />
+		<MyTechs lang="en" />
 	</main>
 </Layout>
 

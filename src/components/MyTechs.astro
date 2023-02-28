@@ -1,9 +1,12 @@
 ---
 import Techs from '../components/Techs.jsx'
+import { i18nTechs } from '@i18n'
+
+const { lang = "es" } = Astro.props
 ---
 
 <section id='tecnologías'>
-    <h3>TECNOLOGÍAS QUE DOMINO</h3>
+    <h3>{ i18nTechs[lang].title }</h3>
     <Techs />
 </section>
 
