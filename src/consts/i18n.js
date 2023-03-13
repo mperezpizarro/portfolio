@@ -67,7 +67,8 @@ export const i18nProjects = {
         password_generator: "Aplicación sencilla para generar una contraseña aleatoria. Permite ajustar la longitud de la misma de 8 a 24 caracteres.",
         animal_pics: "Aplicación que muestra una foto al azar de un Shiba, pato o zorro gracias a la ayuda de distintas APIs.",
         blog: "Blog personal donde subo artículos relacionados con el diseño y desarrollo frontend.",
-        fichas_doblaje: "Proyecto para aprender Nuxt que busca y muestra datos a través de una API creada en el mismo framework."
+        fichas_doblaje: "Proyecto para aprender Nuxt que busca y muestra datos a través de una API creada en el mismo framework.",
+        md_viewer: "Proyecto para practicar Preact y repasar conceptos básicos. Permite escribir código en Markdown y previsualizarlo como HTML."
     },
     en: {
         title: "MY PROJECTS",
@@ -75,7 +76,8 @@ export const i18nProjects = {
         password_generator: "Simple app to generate random passwords. Allows you to adjust the length between 8 to 24 characters.",
         animal_pics: "App that shows random pics of shibas, ducks or foxes using different APIs.",
         blog: "Personal blog where I write frontend development and design related articles.",
-        fichas_doblaje: "Project for learning Nuxt which searches and shows data through an API created in the framework itself."
+        fichas_doblaje: "Project for learning Nuxt which searches and shows data through an API created in the framework itself.",
+        md_viewer: "Project to practice Preact and review basic concepts. Allows you to write Markdown code and previsualize it as HTML."
     }
 }
 

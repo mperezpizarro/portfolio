@@ -10,6 +10,16 @@ const { lang = "es" } = Astro.props
     <h3>{ i18nProjects[lang].title }</h3>
     <CardContainer>
         <Card
+            title="MD-viewer"
+            github="https://github.com/mperezpizarro/md-viewer"
+            web="https://dr4fty-md-viewer.vercel.app/"
+            techs="Vite, Preact, Tailwind"
+        >
+            <p>
+                { i18nProjects[lang].md_viewer }
+            </p>
+        </Card>
+        <Card
             title="Fichas de doblaje"
             github="https://github.com/mperezpizarro/fichas-doblaje"
             web="https://fichas-doblaje.vercel.app/"
