@@ -65,7 +65,7 @@ export const i18nProjects = {
         title: "MIS PROYECTOS",
         badajoz_unida: "Proyecto en grupo de fin de curso que consistía en el prototipo de una plataforma para organizar y unirse a diferentes eventos multiculturales en la ciudad de Badajoz.",
         password_generator: "Aplicación sencilla para generar una contraseña aleatoria. Permite ajustar la longitud de la misma de 8 a 24 caracteres.",
-        animal_pics: "Aplicación que muestra una foto al azar de un Shiba, pato o zorro gracias a la ayuda de distintas APIs.",
+        shiba_cards: "Aplicación que muestra una foto al azar de un Shiba gracias a la API de shibe.online.",
         blog: "Blog personal donde subo artículos relacionados con el diseño y desarrollo frontend.",
         fichas_doblaje: "Proyecto para aprender Nuxt que busca y muestra datos a través de una API creada en el mismo framework.",
         md_viewer: "Proyecto para practicar Preact y repasar conceptos básicos. Permite escribir código en Markdown y previsualizarlo como HTML."
@@ -74,7 +74,7 @@ export const i18nProjects = {
         title: "MY PROJECTS",
         badajoz_unida: "Group class project consisting of an app prototype to organize and join to different multicultural events in Badajoz's city.",
         password_generator: "Simple app to generate random passwords. Allows you to adjust the length between 8 to 24 characters.",
-        animal_pics: "App that shows random pics of shibas, ducks or foxes using different APIs.",
+        shiba_cards: "App that shows random pics of shibas using shibe.online APIs.",
         blog: "Personal blog where I write frontend development and design related articles.",
         fichas_doblaje: "Project for learning Nuxt which searches and shows data through an API created in the framework itself.",
         md_viewer: "Project to practice Preact and review basic concepts. Allows you to write Markdown code and previsualize it as HTML."
